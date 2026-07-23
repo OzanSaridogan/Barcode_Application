@@ -102,12 +102,9 @@ def fiyat_kisa(fiyat_metni, carpan):
 
 
 def buyuk_yazi_uret(urun_adi, fiyat_metni, carpan, son_ek):
-    """Etiketin altindaki buyuk yazi: 'ANGEL 190 TL' veya 'ANGEL URUNADI 190 TL'."""
+    """Etiketin altindaki buyuk yazi: 'ANGEL 190 TL'."""
     fiyat = fiyat_kisa(fiyat_metni, carpan)
-    ad = (urun_adi or "").strip()
-    parcalar = ["ANGEL", ad, fiyat, son_ek.strip()]
-    parcalar = [p for p in parcalar if p]
-    return " ".join(parcalar)
+    return f"ANGEL {fiyat} {son_ek.strip()}".strip()
 
 
 def _acik(bolum, anahtar):
@@ -153,13 +150,12 @@ def _etiket_alanlari(veri, buyuk_yazi, ox, cfg):
     S += [f"^BY{modul}", f"^FO{bx},{top_margin}", f"^FB{barcode_genislik},1,0,C,0",
           f"^BCN,{barcode_yukseklik},{altyazi},N,N", f"^FD{veri}^FS"]
 
-    # Buyuk yazi (ad + fiyat + TL) — barkodun altina, barkoda gore ortalanir
+    # Buyuk yazi (ANGEL + fiyat + TL) — barkodun altina, daha geniş bir boslukla ve daha kucuk font ile
     if _acik(t, "etkin"):
         ty = t.getint("y", fallback=95)
-        fh = t.getint("font_yukseklik")
-        jj = {"sol": "L", "orta": "C", "sag": "R"}.get(
-            t.get("hizalama", "sol").strip().lower(), "L")
-        tx = bx + offset
+        fh = max(18, int(t.getint("font_yukseklik") * 0.75))
+        jj = "C"
+        tx = ox + max(0, (lw - text_width) // 2)
         S += [f"^FO{tx},{ty}", f"^A0N,{fh},{fh}", f"^FB{text_width},1,0,{jj},0",
               f"^FD{buyuk_yazi}^FS"]
     return S
@@ -281,16 +277,6 @@ class Uygulama(tk.Tk):
         ttk.Label(self, text=f"Onek: {self.onek}   |   Fiyat x {self.carpan} (kurus)",
                  foreground="#666").pack(anchor="w", padx=16)
 
-        # Urun adi (etikette gorunen buyuk yazinin bir parcasi; barkoda GIRMEZ)
-        ad_cerceve = ttk.Frame(self)
-        ad_cerceve.pack(fill="x", padx=16, pady=(10, 0))
-        ttk.Label(ad_cerceve, text="Urun adi (istege bagli)",
-                 font=("Segoe UI", 11)).pack(anchor="w")
-        self.ad_giris = ttk.Entry(ad_cerceve, font=("Segoe UI", 16))
-        self.ad_giris.pack(fill="x")
-        self.ad_giris.bind("<KeyRelease>", lambda e: self.onizle())
-        self.ad_giris.bind("<Return>", lambda e: self.yazdir())
-
         # Fiyat ve Adet yan yana
         cerceve = ttk.Frame(self)
         cerceve.pack(fill="x", **pad)
@@ -353,9 +339,8 @@ class Uygulama(tk.Tk):
     # -- islevler ------------------------------------------------------
     def _veri_ve_gorunum(self):
         fiyat = self.fiyat_giris.get()
-        ad = self.ad_giris.get()
         veri = barkod_verisi_uret(fiyat, self.onek, self.carpan, self.kurus_hane)
-        buyuk = buyuk_yazi_uret(ad, fiyat, self.carpan, self.son_ek)
+        buyuk = buyuk_yazi_uret(None, fiyat, self.carpan, self.son_ek)
         return veri, buyuk
 
     def onizle(self):
