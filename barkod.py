@@ -102,10 +102,11 @@ def fiyat_kisa(fiyat_metni, carpan):
 
 
 def buyuk_yazi_uret(urun_adi, fiyat_metni, carpan, son_ek):
-    """Etiketin altindaki buyuk yazi: 'ANGEL 190 TL'. Ad bossa: '190 TL'."""
+    """Etiketin altindaki buyuk yazi: 'ANGEL 190 TL' veya 'ANGEL URUNADI 190 TL'."""
     fiyat = fiyat_kisa(fiyat_metni, carpan)
     ad = (urun_adi or "").strip()
-    parcalar = [p for p in [ad, fiyat, son_ek.strip()] if p]
+    parcalar = ["ANGEL", ad, fiyat, son_ek.strip()]
+    parcalar = [p for p in parcalar if p]
     return " ".join(parcalar)
 
 
@@ -130,9 +131,12 @@ def _etiket_alanlari(veri, buyuk_yazi, ox, cfg):
     ll = e.getint("etiket_uzunluk")
     by = e.getint("barkod_y")
     barcode_x = bk.getint("barcode_x", fallback=0) if bk else 0
-    barcode_y = bk.getint("barcode_y", fallback=by) if bk else by
+    barcode_y = bk.getint("barcode_y", fallback=0) if bk else 0
     barcode_genislik = bk.getint("barcode_genislik", fallback=lw) if bk else lw
     barcode_yukseklik = bk.getint("barcode_yukseklik", fallback=yuk) if bk else yuk
+
+    left_margin = barcode_x if barcode_x > 0 else max(0, (lw - barcode_genislik) // 2)
+    top_margin = barcode_y if barcode_y > 0 else max(0, (ll - barcode_yukseklik) // 2)
 
     S = []
     # Yuvarlak koseli cerceve (yalnizca aciksa)
@@ -142,11 +146,11 @@ def _etiket_alanlari(veri, buyuk_yazi, ox, cfg):
         rnd = c.getint("yuvarlaklik")
         S += [f"^FO{ox + m},{m}", f"^GB{lw - 2*m},{ll - 2*m},{th},B,{rnd}^FS"]
 
-    # Barkod — konum ve boyut config.ini'den okunur, yatayda ortalanir
+    # Barkod — konum ve boyut config.ini'den okunur, etiketin ortasina yerleştirilir
     text_width = min(t.getint("genislik", fallback=lw), max(1, barcode_genislik)) if t else max(1, barcode_genislik)
     offset = max(0, (barcode_genislik - text_width) // 2)
-    bx = ox + barcode_x + offset
-    S += [f"^BY{modul}", f"^FO{bx},{barcode_y}", f"^FB{barcode_genislik},1,0,C,0",
+    bx = ox + left_margin + offset
+    S += [f"^BY{modul}", f"^FO{bx},{top_margin}", f"^FB{barcode_genislik},1,0,C,0",
           f"^BCN,{barcode_yukseklik},{altyazi},N,N", f"^FD{veri}^FS"]
 
     # Buyuk yazi (ad + fiyat + TL) — barkodun altina, barkoda gore ortalanir
