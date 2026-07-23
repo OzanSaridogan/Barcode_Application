@@ -1,326 +1,326 @@
 ('C:\\Users\\Ozan Alp\\Desktop\\Angel\\barcode_app\\build\\barkod\\PYZ-00.pyz',
  [('PIL',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
   ('PIL.AvifImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\AvifImagePlugin.py',
    'PYMODULE'),
   ('PIL.BlpImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
    'PYMODULE'),
   ('PIL.BmpImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
    'PYMODULE'),
   ('PIL.BufrStubImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.CurImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
    'PYMODULE'),
   ('PIL.DcxImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.DdsImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
    'PYMODULE'),
   ('PIL.EpsImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
    'PYMODULE'),
   ('PIL.ExifTags',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ExifTags.py',
    'PYMODULE'),
   ('PIL.FitsImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
    'PYMODULE'),
   ('PIL.FliImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
    'PYMODULE'),
   ('PIL.FpxImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
    'PYMODULE'),
   ('PIL.FtexImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
    'PYMODULE'),
   ('PIL.GbrImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
    'PYMODULE'),
   ('PIL.GifImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
    'PYMODULE'),
   ('PIL.GimpGradientFile',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
    'PYMODULE'),
   ('PIL.GimpPaletteFile',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
    'PYMODULE'),
   ('PIL.GribStubImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
    'PYMODULE'),
   ('PIL.Hdf5StubImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
    'PYMODULE'),
   ('PIL.IcnsImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
    'PYMODULE'),
   ('PIL.IcoImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
    'PYMODULE'),
   ('PIL.Image',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
   ('PIL.ImageChops',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageChops.py',
    'PYMODULE'),
   ('PIL.ImageCms',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageCms.py',
    'PYMODULE'),
   ('PIL.ImageColor',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageColor.py',
    'PYMODULE'),
   ('PIL.ImageDraw',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageDraw.py',
    'PYMODULE'),
   ('PIL.ImageDraw2',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageDraw2.py',
    'PYMODULE'),
   ('PIL.ImageFile',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
   ('PIL.ImageFilter',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageFilter.py',
    'PYMODULE'),
   ('PIL.ImageFont',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageFont.py',
    'PYMODULE'),
   ('PIL.ImageMath',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageMath.py',
    'PYMODULE'),
   ('PIL.ImageMode',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageMode.py',
    'PYMODULE'),
   ('PIL.ImageOps',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageOps.py',
    'PYMODULE'),
   ('PIL.ImagePalette',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImagePalette.py',
    'PYMODULE'),
   ('PIL.ImagePath',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImagePath.py',
    'PYMODULE'),
   ('PIL.ImageQt',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageQt.py',
    'PYMODULE'),
   ('PIL.ImageSequence',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
   ('PIL.ImageShow',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageShow.py',
    'PYMODULE'),
   ('PIL.ImageText',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageText.py',
    'PYMODULE'),
   ('PIL.ImageTk',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageTk.py',
    'PYMODULE'),
   ('PIL.ImageWin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImageWin.py',
    'PYMODULE'),
   ('PIL.ImtImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
    'PYMODULE'),
   ('PIL.IptcImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
    'PYMODULE'),
   ('PIL.Jpeg2KImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
    'PYMODULE'),
   ('PIL.JpegImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
    'PYMODULE'),
   ('PIL.JpegPresets',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\JpegPresets.py',
    'PYMODULE'),
   ('PIL.McIdasImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
    'PYMODULE'),
   ('PIL.MicImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
    'PYMODULE'),
   ('PIL.MpegImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
    'PYMODULE'),
   ('PIL.MpoImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
    'PYMODULE'),
   ('PIL.MspImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
    'PYMODULE'),
   ('PIL.PaletteFile',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PaletteFile.py',
    'PYMODULE'),
   ('PIL.PalmImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
    'PYMODULE'),
   ('PIL.PcdImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
    'PYMODULE'),
   ('PIL.PcxImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfParser',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PdfParser.py',
    'PYMODULE'),
   ('PIL.PixarImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
    'PYMODULE'),
   ('PIL.PngImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
    'PYMODULE'),
   ('PIL.PpmImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
    'PYMODULE'),
   ('PIL.PsdImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
    'PYMODULE'),
   ('PIL.QoiImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\QoiImagePlugin.py',
    'PYMODULE'),
   ('PIL.SgiImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
    'PYMODULE'),
   ('PIL.SpiderImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
    'PYMODULE'),
   ('PIL.SunImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
    'PYMODULE'),
   ('PIL.TgaImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffTags',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\TiffTags.py',
    'PYMODULE'),
   ('PIL.WebPImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
    'PYMODULE'),
   ('PIL.WmfImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
    'PYMODULE'),
   ('PIL.XVThumbImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
    'PYMODULE'),
   ('PIL.XbmImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
    'PYMODULE'),
   ('PIL.XpmImagePlugin',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
    'PYMODULE'),
   ('PIL._binary',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\_binary.py',
    'PYMODULE'),
   ('PIL._deprecate',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\_deprecate.py',
    'PYMODULE'),
   ('PIL._typing',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\_typing.py',
    'PYMODULE'),
   ('PIL._util',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\_util.py',
    'PYMODULE'),
   ('PIL._version',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\_version.py',
    'PYMODULE'),
   ('PIL.features',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\PIL\\features.py',
    'PYMODULE'),
   ('__future__',
@@ -350,75 +350,75 @@
   ('argparse', 'C:\\Program Files\\Python313\\Lib\\argparse.py', 'PYMODULE'),
   ('ast', 'C:\\Program Files\\Python313\\Lib\\ast.py', 'PYMODULE'),
   ('barcode',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\__init__.py',
    'PYMODULE'),
   ('barcode.base',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\base.py',
    'PYMODULE'),
   ('barcode.charsets',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\__init__.py',
    'PYMODULE'),
   ('barcode.charsets.codabar',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\codabar.py',
    'PYMODULE'),
   ('barcode.charsets.code128',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\code128.py',
    'PYMODULE'),
   ('barcode.charsets.code39',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\code39.py',
    'PYMODULE'),
   ('barcode.charsets.ean',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\ean.py',
    'PYMODULE'),
   ('barcode.charsets.itf',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\itf.py',
    'PYMODULE'),
   ('barcode.charsets.upc',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\charsets\\upc.py',
    'PYMODULE'),
   ('barcode.codabar',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\codabar.py',
    'PYMODULE'),
   ('barcode.codex',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\codex.py',
    'PYMODULE'),
   ('barcode.ean',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\ean.py',
    'PYMODULE'),
   ('barcode.errors',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\errors.py',
    'PYMODULE'),
   ('barcode.isxn',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\isxn.py',
    'PYMODULE'),
   ('barcode.itf',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\itf.py',
    'PYMODULE'),
   ('barcode.upc',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\upc.py',
    'PYMODULE'),
   ('barcode.version',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\version.py',
    'PYMODULE'),
   ('barcode.writer',
-   'C:\\Users\\Ozan '
+   'c:\\Users\\Ozan '
    'Alp\\Desktop\\Angel\\barcode_app\\venv\\Lib\\site-packages\\barcode\\writer.py',
    'PYMODULE'),
   ('base64', 'C:\\Program Files\\Python313\\Lib\\base64.py', 'PYMODULE'),
