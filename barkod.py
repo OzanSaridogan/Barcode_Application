@@ -150,10 +150,10 @@ def _etiket_alanlari(veri, buyuk_yazi, ox, cfg):
     S += [f"^BY{modul}", f"^FO{bx},{top_margin}", f"^FB{barcode_genislik},1,0,C,0",
           f"^BCN,{barcode_yukseklik},{altyazi},N,N", f"^FD{veri}^FS"]
 
-    # Buyuk yazi (ANGEL + fiyat + TL) — barkodun altina, daha geniş bir boslukla ve daha kucuk font ile
+    # Buyuk yazi (ANGEL + fiyat + TL) — barkodun altina, daha geniş bir boslukla ve biraz daha buyuk font ile
     if _acik(t, "etkin"):
         ty = t.getint("y", fallback=95)
-        fh = max(18, int(t.getint("font_yukseklik") * 0.75))
+        fh = max(20, int(t.getint("font_yukseklik") * 0.9))
         jj = "C"
         tx = ox + max(0, (lw - text_width) // 2)
         S += [f"^FO{tx},{ty}", f"^A0N,{fh},{fh}", f"^FB{text_width},1,0,{jj},0",
