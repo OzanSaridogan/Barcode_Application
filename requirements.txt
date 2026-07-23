@@ -1,0 +1,6 @@
+# Resimli onizleme icin (opsiyonel ama onerilir):
+python-barcode
+Pillow
+
+# Sadece Windows'ta USB yaziciya baski yapacaksaniz gerekli:
+# pywin32

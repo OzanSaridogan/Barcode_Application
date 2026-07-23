@@ -1,0 +1,70 @@
+; ============================================================
+;  BARKOD UYGULAMASI AYARLARI
+;  Bu dosyayi Not Defteri ile acip degistirebilirsiniz.
+;  Kod bilgisi gerekmez. Degeri "=" isaretinin sagina yazin.
+; ============================================================
+
+[barkod]
+; Her barkodun basina eklenen SABIT onek.
+; Ornek barkodlariniz "812750000" ile basliyordu.
+onek = 812750000
+
+; Fiyati barkod verisine cevirme carpani.
+; 100 = fiyat kurusa cevrilir (37,50 TL -> 3750). Ornekleriniz boyleydi.
+carpan = 100
+
+; Modul (en ince cubuk) genisligi, NOKTA cinsinden.
+; 203 DPI'da 1 nokta = 0,125 mm = 5 mils (sizin ayariniz).
+modul_genislik = 1
+
+; Barkod yuksekligi, NOKTA cinsinden. 9,38 mm x 8 = ~75 nokta.
+yukseklik = 75
+
+; Barkodun altina insan-okuyabilir rakam yazilsin mi? (evet/hayir)
+; Sizin sablonunuzda "Barkod alti" secili oldugu icin: evet
+altyazi = evet
+
+[etiket]
+; Yazicinin cozunurlugu. Sizin yaziciniz 203 DPI.
+dpi = 203
+
+; Etiketin toplam genisligi ve yuksekligi, NOKTA cinsinden.
+; Bunlar sadece baski tuvalinin boyutu; barkod verisini etkilemez.
+; Etiketinizin gercek olcusune gore ayarlayin (mm x 8 = nokta).
+; Ornek: 45 mm genislik -> 360, 25 mm yukseklik -> 200
+baski_genislik = 360
+etiket_uzunluk = 200
+
+; Barkodun sol-ust koseden konumu, NOKTA cinsinden.
+; Sizin ayariniz: X 15,02 mm -> 120, Y 0,65 mm -> 5
+barkod_x = 120
+barkod_y = 5
+
+[fiyat_yazisi]
+; Barkodun yaninda buyuk, okunakli fiyat yazisi da bassin mi? (evet/hayir)
+; Barkod altindaki uzun rakam yerine "37,50 TL" gibi net bir yazi.
+etkin = evet
+x = 120
+y = 90
+font_yukseklik = 36
+; Fiyatin sonuna eklenecek metin. ZPL varsayilan fontunda ₺ sembolu
+; olmayabilir; bu yuzden "TL" onerilir.
+son_ek = TL
+
+[yazici]
+; Baglanti turu: dosya | ag | windows
+;   dosya   = ZPL dosyasi olarak kaydeder (yazici olmadan test icin ideal)
+;   ag      = Yazicinin IP adresine dogrudan gonderir (9100 portu)
+;   windows = Windows'ta yuklu yaziciya ham veri gonderir (USB yazici)
+baglanti = dosya
+
+; "ag" secildiginde kullanilir:
+ag_ip = 192.168.1.50
+ag_port = 9100
+
+; "windows" secildiginde kullanilir. Yazicinin Windows'taki tam adi.
+; (Denetim Masasi > Aygitlar ve Yazicilar altinda gorunen ad)
+windows_yazici_adi = ZDesigner GK420t
+
+; "dosya" secildiginde ZPL dosyalarinin kaydedilecegi klasor.
+cikti_klasoru = ./cikti
